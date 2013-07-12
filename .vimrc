@@ -50,6 +50,10 @@ set history=700
 filetype plugin on
 filetype indent on
 
+" Set for python completion
+let g:pydiction_location = '/home/wanglong/.vim/after/ftplugin/complete-dict'
+let g:pydiction_menu_height = 20
+
 " Set to auto read when a file is changed from the outside
 set autoread
 
